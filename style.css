@@ -1,0 +1,27 @@
+@import url("Styles/header.css");
+@import url("Styles/banner.css");
+@import url("Styles/carrossel.css");
+@import url("Styles/topicos.css");
+@import url("Styles/contato.css");
+@import url("Styles/rodape.css");
+/*FELIPE DA SILVA SANTOS 3D 12/11/2024*/
+:root {
+    --fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --laranja-claro: #ff9100d8;
+    --azul: #002F52;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+/*FELIPE DA SILVA SANTOS 3D 12/11/2024*/
+body {
+    background-color: var(--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
